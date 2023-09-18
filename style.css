@@ -1,0 +1,170 @@
+* {
+    padding: 0 1rem;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #F8F9FA; */
+}
+/* about section */
+.about .program {
+    padding: 5rem 7% 1.4rem;
+ 
+}
+.about h1 {
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+    color: #150436;
+}
+.about h1 span {
+    color: #4508c1;
+}
+.about .row {
+    display: flex;
+}
+.about .row .about-img {
+    flex: 1 1 45rem;
+}
+.about .row .about-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4rem;
+    padding-bottom: 0;
+}
+.about .row .img {
+    flex: 1 1 45rem;
+}
+.about .row .img img {
+    width: 100%;
+    border-radius: 4rem;
+    padding-bottom: 0;
+}
+.about .row .content {
+    flex: 1 1 35rem;
+    padding: 0 1rem;
+}
+.about .row .content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #150436;
+}
+.about .row .content p {
+    margin-bottom: 0.8rem;
+    font-size: 1.5rem;
+    max-height: 50%;
+    display: block;
+    background-color: blueviolet;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+/* layanan section */
+.layanan h3 {
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.layanan h3 span {
+    color: #150436;
+}
+.layanan ul {
+    text-align: center;
+    font-size: 1rem;
+    max-width: 50rem;
+    margin: auto;
+    font-weight: 50;
+    padding-bottom: 2rem;
+}
+.layanan p {
+    text-align: center;
+    font-size: 1.5rem;
+    max-width: 50rem;
+    margin: auto;
+    font-weight:10;
+    line-height: 2;
+}
+.layanan .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    justify-content: center;
+}
+.layanan-card {
+    text-align: center;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    flex: 1 1 10rem;
+}
+.layanan-card .layanan-card-title{
+    font-weight: bold;
+}
+.layanan .row .layanan-card img {
+    border-radius: 50%;
+    width: 50%;
+    font-size: 3rem;
+}
+.layanan .row .layanan-card .layanan-card-title {
+    margin: 1.5rem 0 1rem;
+    font-size:small;
+}
+#card {
+    background-color: #4508c1;
+    box-sizing: content-box;
+    border-radius: 2rem;
+    align-items: flex-start;
+}
+#card1 {
+    background-color: blueviolet;
+    box-sizing: content-box;
+    border-radius: 2rem;
+    align-items: center;
+}
+#card2 {
+    background-color: #4508c1;
+    box-sizing: content-box;
+    border-radius: 2rem;
+    align-items: flex-end;
+}
+/* untuk tombol */
+.layanan .row .layanan-card .tbl-biru {
+    background-color: #150436;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.layanan .row .layanan-card .tbl-biru:hover {
+    background:rgb(0, 167, 167);
+}
+
+/* responsif */
+
+@media (max-width : 1366px) {
+    html{
+        font-size: 75%;
+    }
+}
+
+@media (max-width : 768px) {
+    html{
+        font-size: 60%;
+    }
+    .about .row {
+        flex-wrap: wrap;
+    }
+    .about .row .about-img img{
+        height: 24rem;
+        object-fit: cover;
+        object-position: center;
+    }
+    .layanan .row .layanan-card .tbl-biru {
+        font-size: 60%;
+    }
+    
+}
+@media (max-width : 450px) {
+    html{
+        font-size: 55%;
+    }
+}
