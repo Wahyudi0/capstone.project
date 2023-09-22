@@ -92,6 +92,7 @@
     padding-bottom: 4rem;
     padding-top: 4rem;
     flex: 1 1 10rem;
+    margin: 1rem;
 }
 .layanan-card .layanan-card-title{
     font-weight: bold;
@@ -107,21 +108,15 @@
 }
 #card {
     background-color: #4508c1;
-    box-sizing: content-box;
-    border-radius: 2rem;
-    align-items: flex-start;
+    border-radius: 1rem;
 }
 #card1 {
     background-color: blueviolet;
-    box-sizing: content-box;
-    border-radius: 2rem;
-    align-items: center;
+    border-radius: 1rem;
 }
 #card2 {
     background-color: #4508c1;
-    box-sizing: content-box;
-    border-radius: 2rem;
-    align-items: flex-end;
+    border-radius: 1rem;
 }
 /* untuk tombol */
 .layanan .row .layanan-card .tbl-biru {
@@ -159,7 +154,7 @@
         object-position: center;
     }
     .layanan .row .layanan-card .tbl-biru {
-        font-size: 60%;
+        font-size: 40%;
     }
     
 }
