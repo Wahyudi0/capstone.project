@@ -1,18 +1,20 @@
 * {
     padding: 0 1rem;
+    margin: auto;
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
     /* background-color: #F8F9FA; */
 }
 /* about section */
-.about .program {
+.about {
     padding: 5rem 7% 1.4rem;
- 
+    margin: auto;
 }
 .about h1 {
     text-align: center;
-    font-size: 2.6rem;
-    margin-bottom: 3rem;
+    padding-top: 0.5rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
     color: #150436;
 }
 .about h1 span {
@@ -27,7 +29,6 @@
 .about .row .about-img img {
     width: 100%;
     height: 100%;
-    border-radius: 4rem;
     padding-bottom: 0;
 }
 .about .row .img {
@@ -35,7 +36,6 @@
 }
 .about .row .img img {
     width: 100%;
-    border-radius: 4rem;
     padding-bottom: 0;
 }
 .about .row .content {
@@ -43,23 +43,26 @@
     padding: 0 1rem;
 }
 .about .row .content h2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-bottom: 1rem;
     color: #150436;
 }
 .about .row .content p {
     margin-bottom: 0.8rem;
-    font-size: 1.5rem;
-    max-height: 50%;
-    display: block;
-    background-color: blueviolet;
+    font-size: 1rem;
+    display: flex;
     padding: 1rem;
-    border-radius: 2rem;
+    color: #150436;
+    justify-content: center;
 }
 /* layanan section */
+.layanan {
+    margin: auto;
+}
 .layanan h3 {
-    font-size: 2.6rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
+    padding-top: 1rem;
     text-align: center;
 }
 .layanan h3 span {
@@ -67,7 +70,7 @@
 }
 .layanan ul {
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.9rem;
     max-width: 50rem;
     margin: auto;
     font-weight: 50;
@@ -75,7 +78,7 @@
 }
 .layanan p {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
     max-width: 50rem;
     margin: auto;
     font-weight:10;
@@ -83,28 +86,24 @@
 }
 .layanan .row {
     display: flex;
-    flex-wrap: wrap;
     margin-top: 5rem;
     justify-content: center;
 }
 .layanan-card {
     text-align: center;
-    padding-bottom: 4rem;
-    padding-top: 4rem;
-    flex: 1 1 10rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
     margin: 1rem;
 }
-.layanan-card .layanan-card-title{
-    font-weight: bold;
-}
 .layanan .row .layanan-card img {
+    flex: 1 1 10rem;
     border-radius: 50%;
     width: 50%;
-    font-size: 3rem;
+    font-size: 1rem;
 }
 .layanan .row .layanan-card .layanan-card-title {
     margin: 1.5rem 0 1rem;
-    font-size:small;
+    font-size:2rem;
 }
 #card {
     background-color: #4508c1;
